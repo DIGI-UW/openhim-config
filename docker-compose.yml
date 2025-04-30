@@ -8,7 +8,7 @@ services:
   openhim-core:
     container_name: openhim-core
     hostname: openhim-core
-    image: jembi/openhim-core:latest
+    image: jembi/openhim-core:v7.1.0
     environment:
       mongo_url: "mongodb://mongo-db/openhim"
       mongo_atnaUrl: "mongodb://mongo-db/openhim"
